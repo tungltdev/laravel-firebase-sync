@@ -1,0 +1,41 @@
+{
+    "name": "tungltdev/laravel-firebase-sync",
+    "license": "MIT",
+    "description": "Synchronize your Eloquent models with a Firebase realtime database.",
+    "keywords": [
+        "firebase",
+        "eloquent",
+        "laravel"
+    ],
+    "homepage": "http://github.com/tungltdev/laravel-firebase-sync",
+    "authors": [
+        {
+            "name": "LE THANH TUNG",
+            "email": "tunglt.dev@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tungltdev/laravel-firebase-sync/issues",
+        "source": "https://github.com/tungltdev/laravel-firebase-sync"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "ktamas77/firebase-php": "^2.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~4.7 || ~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tungltdev\\Firebase": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tungltdev\\Firebase\\Tests\\": "tests/"
+        }
+    }
+}
